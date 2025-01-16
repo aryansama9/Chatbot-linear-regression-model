@@ -4,42 +4,10 @@ This project demonstrates a simple linear regression model designed to promote t
 
 ---
 
-## Getting Started
-
-Follow these steps to set up and explore the project in your local environment.  
-
-### Prerequisites  
-Make sure you have the following installed:  
-- **Python** (version 3.7 or later)  
-- **Jupyter Notebook**  
-- Required Python libraries:
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `scikit-learn`
-  - `tensorflow`
-
-You can install the necessary libraries using pip:  
-```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow
-```
-
-### Dataset  
-The dataset contains Flipkart reviews, preprocessed for sentiment analysis:
-- Positive reviews are labeled as `1`
-- Negative reviews are labeled as `0`  
-
-Ensure the dataset is placed in the same directory as the notebook or provide the correct path in the code.
-
----
-
 ## Project Structure  
 
-- `Chatbot-Linear-Regression.ipynb`  
+- `sentiment_score_for_cen.ipynb`  
   Main notebook containing the model code and step-by-step explanation.  
-
-- `flipkart_reviews.csv`  
-  The dataset used for training and testing the model.  
 
 - `README.md`  
   Documentation for understanding and running the project.  
@@ -65,13 +33,13 @@ Ensure the dataset is placed in the same directory as the notebook or provide th
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YourUsername/Chatbot-Linear-Regression-Model.git
-   cd Chatbot-Linear-Regression-Model
+   git clone https://github.com/aryansama9/Chatbot-linear-regression-model.git
+   cd Chatbot-linear-regression-model
    ```
 
 2. Launch Jupyter Notebook:  
    ```bash
-   jupyter notebook Chatbot-Linear-Regression.ipynb
+   jupyter notebook sentiment_score_for_cen.ipynb
    ```
 
 3. Follow the instructions in the notebook to:  
