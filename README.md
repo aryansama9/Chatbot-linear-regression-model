@@ -1,76 +1,15 @@
-# Chatbot-Linear-Regression-Model
-
-This project demonstrates a simple linear regression model designed to promote the adoption of AI chatbots in the eCommerce market. It aims to provide insights into the potential impact of chatbots on customer satisfaction and business efficiency.  
-
----
-
-## Project Structure  
-
-- `sentiment_score_for_cen.ipynb`  
-  Main notebook containing the model code and step-by-step explanation.  
-
-- `README.md`  
-  Documentation for understanding and running the project.  
-
----
+This project used a simple linear regression model from Scikitlearn with Flipkart reviews borrowed from Kaggle as a means to replicate reviews of A.I chatbots, in turn, this model gives us a trend of whether or not to continue with improving and distributing A.I chatbots into the market.
 
 ## How It Works  
 
 1. **Data Preprocessing**  
-   - Cleans and preprocesses the Flipkart reviews dataset.  
-   - Converts text data into numerical labels (positive: `1`, negative: `0`).  
+   - With the Flipkart reviews Cleans and preprocesses the Flipkart reviews dataset.
+   - Calculate the sentiment scores of each review using the transformers pipeline.
+   - Have all the sentiments normalised into -1 and 1, this is to show if there is a positive or negative trend of public satisfaction.
 
 2. **Model Development**  
-   - Builds a simple linear regression model using TensorFlow.  
-   - Trains the model to predict the impact of chatbots on customer sentiment.  
+   - Sentiments calculated with the Transformers pipeline.
+   - Imported Scikit Learn's Linear Regression.
 
 3. **Visualization**  
-   - Provides clear plots to demonstrate the relationship between input features and predictions.  
-
----
-
-## Running the Project  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/aryansama9/Chatbot-linear-regression-model.git
-   cd Chatbot-linear-regression-model
-   ```
-
-2. Launch Jupyter Notebook:  
-   ```bash
-   jupyter notebook sentiment_score_for_cen.ipynb
-   ```
-
-3. Follow the instructions in the notebook to:  
-   - Load the dataset.  
-   - Train and evaluate the linear regression model.  
-   - Visualize results and insights.  
-
----
-
-## Results  
-
-The notebook will output:  
-- Model training loss and accuracy.  
-- Graphs illustrating chatbot impact predictions on customer sentiment.
-
----
-
-## Future Enhancements  
-
-- Expand the model to include multiple regression for richer insights.  
-- Apply NLP techniques like sentiment classification for better text data analysis.  
-- Explore other machine learning models for comparison.  
-
----
-
-## Contributing  
-
-Contributions are welcome! If you'd like to improve the project, submit a pull request or open an issue.  
-
----
-
-## License  
-
-This project is licensed under the MIT License.  
+   - Seaborn's scatterplot was used along with Matplotlib's Title for the X and Y axis.
